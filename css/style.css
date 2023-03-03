@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body{
+	font-family: 'Lora', serif;
+	font-size: 18px;
+}
+h1, h3{
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+}
+
+#Reputation{
+	position: absolute;
+	top:20px;
+	left: 30px;
+	width: 15%;
+}
+#Logo-reputation{
+	position: absolute;
+    top: 794px;
+    left: 49px;
+    width: 13%;
+}
+h2{
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+}
+#titre2{
+	padding-left: 150px;
+	padding-right: 150px;
+	color: rgb(100, 100, 100);
+	text-justify: center;
+
+}
+.list-inline i{
+	font-size: 50px;
+	color: rgb(200, 200, 200);
+}
+.list-inline i:hover{
+	color: rgb(50, 50, 50);
+
+}
+#social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.list-align {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.list-align i{
+	font-size: 50px;
+	color: rgb(200, 200, 200);
+}
+.list-align i:hover{
+	color: rgb(50, 50, 50);
+}
+.list-align li {
+  display: inline-block;
+  padding: 20px;
+  margin: 20px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  flex-basis: 250px;
+
+}
+
+#followus{
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+}
+
+.btn-blue:hover{
+	background-color:#FCD53F ;
+}
+
